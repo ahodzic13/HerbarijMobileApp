@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/slikaItem"
+        android:layout_width="100dp"
+        android:layout_height="176dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489"
+        app:srcCompat="@drawable/picture1" />
+
+    <TextView
+        android:id="@+id/profilOkusaItem"
+        android:layout_width="271dp"
+        android:layout_height="91dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/slikaItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toEndOf="@+id/slikaItem"
+        app:layout_constraintTop_toBottomOf="@+id/nazivItem" />
+
+    <TextView
+        android:id="@+id/nazivItem"
+        android:layout_width="262dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/profilOkusaItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/slikaItem"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32999998" />
+
+    <TextView
+        android:id="@+id/jelo1Item"
+        android:layout_width="91dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/jelo2Item"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toEndOf="@+id/slikaItem"
+        app:layout_constraintTop_toBottomOf="@+id/profilOkusaItem" />
+
+    <TextView
+        android:id="@+id/jelo2Item"
+        android:layout_width="91dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/jelo3Item"
+        app:layout_constraintStart_toEndOf="@+id/jelo1Item"
+        app:layout_constraintTop_toBottomOf="@+id/profilOkusaItem" />
+
+    <TextView
+        android:id="@+id/jelo3Item"
+        android:layout_width="66dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/jelo2Item"
+        app:layout_constraintTop_toBottomOf="@+id/profilOkusaItem" />
+</androidx.constraintlayout.widget.ConstraintLayout>

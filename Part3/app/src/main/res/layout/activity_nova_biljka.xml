@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NovaBiljkaActivity">
+
+
+    <!-- EditText za unos naziva biljke -->
+
+    <!-- EditText za unos porodice biljke -->
+
+    <!-- EditText za unos medicinskog upozorenja -->
+
+    <!-- EditText za unos jela -->
+
+    <!-- ListView za medicinske koristi -->
+
+    <!-- ListView za klimatske tipove -->
+
+    <!-- ListView za zemljisne tipove -->
+
+    <!-- ListView za profil okusa -->
+
+    <!-- ListView za jela -->
+
+    <EditText
+        android:id="@+id/nazivET"
+        android:layout_width="351dp"
+        android:layout_height="51dp"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Naziv biljke"
+        app:layout_constraintBottom_toTopOf="@+id/porodicaET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/porodicaET"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Porodica biljke"
+        app:layout_constraintBottom_toTopOf="@+id/medicinskoUpozorenjeET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nazivET" />
+
+    <EditText
+        android:id="@+id/medicinskoUpozorenjeET"
+        android:layout_width="352dp"
+        android:layout_height="51dp"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Medicinsko upozorenje"
+        app:layout_constraintBottom_toTopOf="@+id/jeloET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/porodicaET" />
+
+    <EditText
+        android:id="@+id/jeloET"
+        android:layout_width="349dp"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Jelo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/medicinskoUpozorenjeET" />
+
+    <ListView
+        android:id="@+id/medicinskaKoristLV"
+        android:layout_width="163dp"
+        android:layout_height="134dp"
+        android:layout_margin="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/zemljisniTipLV"
+        app:layout_constraintEnd_toStartOf="@+id/klimatskiTipLV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/jeloET" />
+
+    <ListView
+        android:id="@+id/klimatskiTipLV"
+        android:layout_width="174dp"
+        android:layout_height="135dp"
+        android:layout_margin="8dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/profilOkusaLV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/medicinskaKoristLV"
+        app:layout_constraintTop_toBottomOf="@id/jeloET" />
+
+    <ListView
+        android:id="@+id/zemljisniTipLV"
+        android:layout_width="166dp"
+        android:layout_height="120dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/jelaLV"
+        app:layout_constraintEnd_toStartOf="@+id/profilOkusaLV"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/medicinskaKoristLV" />
+
+    <!-- Button za dodavanje jela -->
+
+    <!-- Button za dodavanje biljke -->
+
+    <!-- Button za uslikavanje biljke -->
+
+    <!-- ImageView za prikaz slike biljke -->
+
+    <ListView
+        android:id="@+id/profilOkusaLV"
+        android:layout_width="175dp"
+        android:layout_height="120dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="17dp"
+        android:choiceMode="singleChoice"
+        app:layout_constraintBottom_toTopOf="@+id/slikaIV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/zemljisniTipLV"
+        app:layout_constraintTop_toBottomOf="@+id/klimatskiTipLV" />
+
+    <ListView
+        android:id="@+id/jelaLV"
+        android:layout_width="160dp"
+        android:layout_height="133dp"
+        android:layout_margin="8dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="41dp"
+        app:layout_constraintBottom_toTopOf="@+id/dodajJeloBtn"
+        app:layout_constraintEnd_toStartOf="@+id/slikaIV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zemljisniTipLV" />
+
+    <Button
+        android:id="@+id/dodajJeloBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:text="Dodaj jelo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dodajBiljkuBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jelaLV"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/dodajBiljkuBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="Dodaj biljku"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/uslikajBiljkuBtn"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toEndOf="@+id/dodajJeloBtn"
+        app:layout_constraintVertical_bias="0.997" />
+
+    <Button
+        android:id="@+id/uslikajBiljkuBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="56dp"
+        android:text="Uslikaj biljku"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/dodajBiljkuBtn"
+        app:layout_constraintTop_toBottomOf="@+id/slikaIV"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <ImageView
+        android:id="@+id/slikaIV"
+        android:layout_width="180dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/uslikajBiljkuBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toEndOf="@+id/jelaLV"
+        app:layout_constraintTop_toBottomOf="@+id/profilOkusaLV"
+        app:layout_constraintVertical_bias="0.134"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
