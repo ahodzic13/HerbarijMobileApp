@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/slikaItem"
+        android:layout_width="112dp"
+        android:layout_height="131dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/picture1" />
+
+    <TextView
+        android:id="@+id/nazivItem"
+        android:layout_width="250dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="3dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/porodicaItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toEndOf="@+id/slikaItem"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/porodicaItem"
+        android:layout_width="250dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/klimatskiTipItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toEndOf="@+id/slikaItem"
+        app:layout_constraintTop_toBottomOf="@+id/nazivItem" />
+
+    <TextView
+        android:id="@+id/klimatskiTipItem"
+        android:layout_width="250dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/zemljisniTipItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toEndOf="@+id/slikaItem"
+        app:layout_constraintTop_toBottomOf="@+id/porodicaItem"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/zemljisniTipItem"
+        android:layout_width="250dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="3dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/slikaItem"
+        app:layout_constraintTop_toBottomOf="@+id/klimatskiTipItem" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

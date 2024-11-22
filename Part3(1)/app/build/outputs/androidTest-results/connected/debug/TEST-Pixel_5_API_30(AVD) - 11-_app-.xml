@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.spirala1.VlastitiTestovi" tests="9" failures="0" errors="0" skipped="0" time="38.729" timestamp="2024-04-28T20:06:11" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_5_API_30(AVD) - 11" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="testValidacijaDodavanjaDuplihJela" classname="com.example.spirala1.VlastitiTestovi" time="3.92" />
+  <testcase name="testValidacijaKlimatskiTipLV" classname="com.example.spirala1.VlastitiTestovi" time="5.554" />
+  <testcase name="testValidacijaZemljisniTipLV" classname="com.example.spirala1.VlastitiTestovi" time="5.477" />
+  <testcase name="testSlikanjeBiljke" classname="com.example.spirala1.VlastitiTestovi" time="1.435" />
+  <testcase name="testValidacijaMedicinskaKoristLV" classname="com.example.spirala1.VlastitiTestovi" time="5.629" />
+  <testcase name="testValidacijaDuzine1" classname="com.example.spirala1.VlastitiTestovi" time="2.614" />
+  <testcase name="testValidacijaDuzine2" classname="com.example.spirala1.VlastitiTestovi" time="2.893" />
+  <testcase name="testValidacijaDuzine3" classname="com.example.spirala1.VlastitiTestovi" time="3.299" />
+  <testcase name="testValidacijaProfilOkusaLV" classname="com.example.spirala1.VlastitiTestovi" time="5.761" />
+</testsuite>

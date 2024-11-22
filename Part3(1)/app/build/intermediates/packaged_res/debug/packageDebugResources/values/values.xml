@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="boje">
+        <item>red</item>
+        <item>blue</item>
+        <item>yellow</item>
+        <item>orange</item>
+        <item>purple</item>
+        <item>brown</item>
+        <item>green</item>
+    </string-array>
+    <string-array name="opcije_spinnera">
+        <item>Medicinski</item>
+        <item>Botanicki</item>
+        <item>Kuharski</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="dark_white_bg">#E1D9D1</color>
+    <color name="grey">#CCCCCC</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Spirala1</string>
+    <string name="dodaj_jelo">Dodaj jelo</string>
+    <string name="dodavanje_praznog_jela">Unesite naziv jela</string>
+    <string name="izmijeni_jelo">Izmijeni jelo</string>
+    <string name="tekst_dugmeta_reset">Reset</string>
+    <style name="Base.Theme.Spirala1" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Spirala1" parent="Base.Theme.Spirala1"/>
+</resources>

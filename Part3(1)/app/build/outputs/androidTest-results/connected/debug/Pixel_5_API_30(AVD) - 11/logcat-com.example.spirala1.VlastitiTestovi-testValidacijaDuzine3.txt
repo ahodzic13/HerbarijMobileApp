@@ -1,0 +1,297 @@
+04-28 22:06:01.186  4774  4796 I TestRunner: started: testValidacijaDuzine3(com.example.spirala1.VlastitiTestovi)
+04-28 22:06:01.191  4774  4796 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+04-28 22:06:01.193   308   308 D goldfish-address-space: claimShared: Ask to claim region [0x3f6318000 0x3f6cbc000]
+04-28 22:06:01.209   537   559 D EventSequenceValidator: inc AccIntentStartedEvents to 3
+04-28 22:06:01.217   308   349 D goldfish-address-space: claimShared: Ask to claim region [0x3f6cbc000 0x3f7660000]
+04-28 22:06:01.236   308   308 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f49a4000]
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.247   537  2536 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.248   537  2536 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.248   537  2536 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.248   537  2536 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.248   537  2536 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.248   537  2536 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.248   537  2536 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:01.257   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f49a4000 0x3f5348000]
+04-28 22:06:01.272  4774  4774 D LifecycleMonitor: Lifecycle status change: com.example.spirala1.NovaBiljkaActivity@ae4fbe9 in: PRE_ON_CREATE
+04-28 22:06:01.272  4774  4774 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+04-28 22:06:01.281   308   363 D goldfish-address-space: claimShared: Ask to claim region [0x3f9833000 0x3fa1d7000]
+04-28 22:06:01.296   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3fa1d7000 0x3fab7b000]
+04-28 22:06:01.329  4774  4774 D LifecycleMonitor: Lifecycle status change: com.example.spirala1.NovaBiljkaActivity@ae4fbe9 in: CREATED
+04-28 22:06:01.329  4774  4774 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.spirala1.NovaBiljkaActivity@ae4fbe9
+04-28 22:06:01.333  4774  4774 D LifecycleMonitor: Lifecycle status change: com.example.spirala1.NovaBiljkaActivity@ae4fbe9 in: STARTED
+04-28 22:06:01.334  4774  4774 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.spirala1.NovaBiljkaActivity@ae4fbe9
+04-28 22:06:01.334  4774  4774 D LifecycleMonitor: Lifecycle status change: com.example.spirala1.NovaBiljkaActivity@ae4fbe9 in: RESUMED
+04-28 22:06:01.334  4774  4774 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.spirala1.NovaBiljkaActivity@ae4fbe9
+04-28 22:06:01.339  1357  2022 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+04-28 22:06:01.354   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f1974000 0x3f2318000]
+04-28 22:06:01.384   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f09a4000]
+04-28 22:06:01.401  1357  1357 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+04-28 22:06:01.403   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f09a4000 0x3f1348000]
+04-28 22:06:01.413  1357  2022 I TngMinusOneSync: Syncing TNG:-1
+04-28 22:06:01.436   537  4337 D HostConnection: HostConnection::get() New Host Connection established 0xb568ff20, tid 4337
+04-28 22:06:01.440   537  4337 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+04-28 22:06:01.440   537  4337 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-28 22:06:01.458   537  4337 D EGL_emulation: eglCreateContext: 0xb5690a10: maj 2 min 0 rcv 2
+04-28 22:06:01.488   537  4337 D EGL_emulation: eglMakeCurrent: 0xb5690a10: ver 2 0 (tinfo 0xb721fab0) (first time)
+04-28 22:06:01.492   537   564 D ArtManagerInternalImpl: /data/misc/iorapd/com.example.spirala1/1/com.example.spirala1.NovaBiljkaActivity/compiled_traces/compiled_trace.pb doesn't exist
+04-28 22:06:01.493   537   564 I ActivityTaskManager: Displayed com.example.spirala1/.NovaBiljkaActivity: +282ms
+04-28 22:06:01.498   537   559 D EventSequenceValidator: dec AccIntentStartedEvents to 2
+04-28 22:06:01.514  4774  4774 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+04-28 22:06:01.530  1357  2170 I PBSessionCacheImpl: Deleted sessionId[5969863450115089] from persistence.
+04-28 22:06:01.534  4774  4774 I ViewInteraction: Performing 'type text(Kamilica)' action on view view.getId() is <2131296580/com.example.spirala1:id/nazivET>
+04-28 22:06:01.574  1357  2022 W SearchServiceCore: Abort, client detached.
+04-28 22:06:01.598  4774  4774 I AssistStructure: Flattened final assist data: 4204 bytes, containing 1 windows, 28 views
+04-28 22:06:01.617  1239  1239 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+04-28 22:06:01.617  1239  1239 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.example.spirala1 : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+04-28 22:06:01.618  1239  1239 I Delight5Facilitator: Delight5Facilitator.initializeForIme():561 initializeForIme() : Locale = [en_US], layout = qwerty
+04-28 22:06:01.618  1239  1239 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+04-28 22:06:01.618  1239  1239 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+04-28 22:06:01.618  1239  4275 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+04-28 22:06:01.619  1239  4275 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+04-28 22:06:01.620  1239  1239 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+04-28 22:06:01.632  1239  1239 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{e247989 V.E...... ......ID 0,0-1080,2063}
+04-28 22:06:01.632  1239  1239 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.example.spirala1] not in whitelist
+04-28 22:06:01.632  1239  1239 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():162 onActivate() : Disabled by unsupported host app
+04-28 22:06:01.633  1239  1239 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():336 No private IME option set to start voice input.
+04-28 22:06:01.641   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f2318000 0x3f2c24000]
+04-28 22:06:01.663  1192  1192 W kqw     : Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+04-28 22:06:01.666   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f49a4000 0x3f52b0000]
+04-28 22:06:01.678   308   363 D goldfish-address-space: claimShared: Ask to claim region [0x3f52b0000 0x3f5bbc000]
+04-28 22:06:01.718   961   961 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:1991493456
+04-28 22:06:01.749   308   363 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f49a4000]
+04-28 22:06:01.774   308   363 D goldfish-address-space: claimShared: Ask to claim region [0x3f5bbc000 0x3f6560000]
+04-28 22:06:01.876  4774  4774 D UiControllerImpl: Injecting string: "Kamilica"
+04-28 22:06:01.901   308   363 D goldfish-address-space: claimShared: Ask to claim region [0x3f1974000 0x3f2318000]
+04-28 22:06:01.911  1239  1239 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():89 onContentChanged()
+04-28 22:06:01.968  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: @
+04-28 22:06:01.968  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: !
+04-28 22:06:01.968  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: #
+04-28 22:06:01.968  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: %
+04-28 22:06:01.968  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: &
+04-28 22:06:01.968  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: *
+04-28 22:06:01.968  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: +
+04-28 22:06:01.968  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: /
+04-28 22:06:01.968  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: =
+04-28 22:06:01.968  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: ?
+04-28 22:06:01.969  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: ^
+04-28 22:06:01.969  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: _
+04-28 22:06:01.969  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: `
+04-28 22:06:01.969  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: {
+04-28 22:06:01.969  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: |
+04-28 22:06:01.969  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: }
+04-28 22:06:01.969  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: ~
+04-28 22:06:01.998  1239  2247 I native  : input-context-store.cc:173 Ignoring stale client request for FetchSuggestions
+04-28 22:06:02.005  1239  1239 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 632<635, inputStateId=566, lastInputStateId=568
+04-28 22:06:02.010  1239  1239 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 634<636, inputStateId=567, lastInputStateId=568
+04-28 22:06:02.016  1239  2247 E native  : bikey-model.cc:1023 Invalid frame index: 5
+04-28 22:06:02.017  1239  2247 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 33 lines
+04-28 22:06:02.017  1239  2247 E native  : bikey-model.cc:1023 Invalid frame index: 5
+04-28 22:06:02.020  1239  1239 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 636<637, inputStateId=569, lastInputStateId=570
+04-28 22:06:02.023  1239  2247 E native  : bikey-model.cc:1023 Invalid frame index: 7
+04-28 22:06:02.026  1239  2247 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 39 lines
+04-28 22:06:02.026  1239  2247 E native  : bikey-model.cc:1023 Invalid frame index: 7
+04-28 22:06:02.065  1239  2247 I native  : input-context-store.cc:173 Ignoring stale client request for FetchSuggestions
+04-28 22:06:02.081  1239  1239 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 640<642, inputStateId=573, lastInputStateId=573
+04-28 22:06:02.084   308   363 D goldfish-address-space: claimShared: Ask to claim region [0x3f38e3000 0x3f3946000]
+04-28 22:06:02.097  1239  2247 I native  : input-context-store.cc:173 Ignoring stale client request for FetchSuggestions
+04-28 22:06:02.104   308   363 D goldfish-address-space: claimShared: Ask to claim region [0x3f3946000 0x3f39a9000]
+04-28 22:06:02.111   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f39a9000 0x3f3a0c000]
+04-28 22:06:02.121  1239  1239 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 642<644, inputStateId=574, lastInputStateId=574
+04-28 22:06:02.125  4774  4774 I ViewInteraction: Performing 'close keyboard' action on view view.getRootView() to equal view
+04-28 22:06:02.126  4774  4774 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@8f3fe3a]
+04-28 22:06:02.134  1239  1239 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+04-28 22:06:02.135  1239  1239 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+04-28 22:06:02.138  1239  1239 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+04-28 22:06:02.138  1239  1239 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+04-28 22:06:02.138  1239  1239 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+04-28 22:06:02.157  1239  2247 I native  : input-context-store.cc:173 Ignoring stale client request for FetchSuggestions
+04-28 22:06:02.160  1239  1239 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 646<647, inputStateId=577, lastInputStateId=577
+04-28 22:06:02.443  4010  4040 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@f10c4d1
+04-28 22:06:02.450  4010  4040 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} already migrated
+04-28 22:06:02.464  4774  4774 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@8f3fe3a]
+04-28 22:06:02.468  4774  4774 I ViewInteraction: Performing 'type text(kkkkkk)' action on view view.getId() is <2131296626/com.example.spirala1:id/porodicaET>
+04-28 22:06:02.489  1470  4692 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+04-28 22:06:02.491  4010  4040 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+04-28 22:06:02.491  4010  4040 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+04-28 22:06:02.502  1470  4692 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+04-28 22:06:02.516  1239  1239 I ShortcutsDataManager: AbstractContentDataManager.startImportContentTask():208 startImportContentTask()
+04-28 22:06:02.525   916   941 D SmsNumberUtils: enter filterDestAddr. destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+04-28 22:06:02.527   916   941 D SmsNumberUtils: destAddr is not formatted.
+04-28 22:06:02.527   916   941 D SmsNumberUtils: leave filterDestAddr, new destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+04-28 22:06:02.547  1239  1239 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+04-28 22:06:02.547  1239  1239 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.example.spirala1 : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+04-28 22:06:02.547  1239  1239 I Delight5Facilitator: Delight5Facilitator.initializeForIme():561 initializeForIme() : Locale = [en_US], layout = qwerty
+04-28 22:06:02.548  1239  1239 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+04-28 22:06:02.548  1239  1239 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+04-28 22:06:02.549  1239  1239 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+04-28 22:06:02.550  1239  4275 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+04-28 22:06:02.550  1239  4275 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+04-28 22:06:02.563  1239  1239 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{e247989 V.E...... ......ID 0,0-1080,2063}
+04-28 22:06:02.564  1239  1239 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.example.spirala1] not in whitelist
+04-28 22:06:02.564  1239  1239 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():162 onActivate() : Disabled by unsupported host app
+04-28 22:06:02.564  1239  1239 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():336 No private IME option set to start voice input.
+04-28 22:06:02.569  1239  1980 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.doInBackground():222 doInBackground()
+04-28 22:06:02.569  1239  1980 I PersonalDictionaryDataHandler: PersonalDictionaryDataHandler.beginProcess():111 LanguageTags = [en-US]
+04-28 22:06:02.575   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f2318000 0x3f2c24000]
+04-28 22:06:02.601   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f090c000]
+04-28 22:06:02.608  1239  1980 I ShortcutsDataManager: AbstractContentDataManager.importRecords():312 importRecords() : Success : Count = 0
+04-28 22:06:02.613  1239  1980 I ShortcutsDataManager: AbstractContentDataManager.importContentData():262 importContentData() : Ending import process
+04-28 22:06:02.618   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f090c000 0x3f1218000]
+04-28 22:06:02.650  1239  1980 I PersonalLanguageModelUpdater: PersonalLanguageModelUpdater$UpdateOperation.performInternal():160 run() : Added 0 words and 0 shortcuts
+04-28 22:06:02.650  1239  1980 I DynamicLanguageModelOperation: DynamicLanguageModelOperation.perform():37 perform() : 4 : coc : Completed
+04-28 22:06:02.651  1239  2247 I Delight5Decoder: Delight5DecoderWrapper.loadLanguageModel():578 loadLanguageModel() : 4, version [n/a]
+04-28 22:06:02.651  1239  2247 I Delight5Decoder: Delight5DecoderWrapper.loadLanguageModel():616 Loaded dynamic LM 4.en
+04-28 22:06:02.659  1239  1239 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.onPostExecute():233 onPostExecute() : Result = [2,0]
+04-28 22:06:02.659  1239  1239 I ShortcutsDataManager: ShortcutsDataManager.onImportFinished():99 onImportFinished() : Result = 2 : Count = 0
+04-28 22:06:02.763  4774  4774 D UiControllerImpl: Injecting string: "kkkkkk"
+04-28 22:06:02.787  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: @
+04-28 22:06:02.787  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: !
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: #
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: %
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: &
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: *
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: +
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: /
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: =
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: ?
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: ^
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: _
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: `
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: {
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: |
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: }
+04-28 22:06:02.788  1239  2247 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: ~
+04-28 22:06:02.805  1239  2247 I native  : input-context-store.cc:173 Ignoring stale client request for FetchSuggestions
+04-28 22:06:02.816  1239  1239 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 651<654, inputStateId=581, lastInputStateId=583
+04-28 22:06:02.817  1239  1239 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 653<654, inputStateId=582, lastInputStateId=583
+04-28 22:06:02.865  4774  4774 I ViewInteraction: Performing 'close keyboard' action on view view.getRootView() to equal view
+04-28 22:06:02.865  4774  4774 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@ba049f2]
+04-28 22:06:02.868  1239  1239 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+04-28 22:06:02.869  1239  1239 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+04-28 22:06:02.884  1239  2247 I native  : input-context-store.cc:173 Ignoring stale client request for FetchSuggestions
+04-28 22:06:02.885  1239  1239 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+04-28 22:06:02.885  1239  1239 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+04-28 22:06:02.886  1239  1239 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+04-28 22:06:02.901   386   386 I perfetto: probes_producer.cc:329  Producer stop (id=13)
+04-28 22:06:02.902  1239  1239 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 659<662, inputStateId=588, lastInputStateId=589
+04-28 22:06:02.902  1239  2247 I native  : input-context-store.cc:173 Ignoring stale client request for FetchSuggestions
+04-28 22:06:02.902   389   389 I perfetto: ng_service_impl.cc:1948 Tracing session 13 ended, total sessions:1
+04-28 22:06:02.902  1239  1239 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 661<662, inputStateId=589, lastInputStateId=589
+04-28 22:06:03.213  4774  4774 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@ba049f2]
+04-28 22:06:03.218  4774  4774 I ViewInteraction: Performing 'type text(c)' action on view view.getId() is <2131296537/com.example.spirala1:id/medicinskoUpozorenjeET>
+04-28 22:06:03.299  1239  1239 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+04-28 22:06:03.300  1239  1239 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.example.spirala1 : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+04-28 22:06:03.301  1239  1239 I Delight5Facilitator: Delight5Facilitator.initializeForIme():561 initializeForIme() : Locale = [en_US], layout = qwerty
+04-28 22:06:03.302  1239  1239 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+04-28 22:06:03.302  1239  1239 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+04-28 22:06:03.303  1239  4275 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+04-28 22:06:03.303  1239  4275 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+04-28 22:06:03.305  1239  1239 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+04-28 22:06:03.318  1239  1239 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{e247989 V.E...... ......ID 0,0-1080,2063}
+04-28 22:06:03.320  1239  1239 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.example.spirala1] not in whitelist
+04-28 22:06:03.320  1239  1239 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():162 onActivate() : Disabled by unsupported host app
+04-28 22:06:03.321  1239  1239 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():336 No private IME option set to start voice input.
+04-28 22:06:03.330   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f2318000 0x3f2c24000]
+04-28 22:06:03.379   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f090c000]
+04-28 22:06:03.402   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f090c000 0x3f1218000]
+04-28 22:06:03.486   537  1801 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+04-28 22:06:03.513  4774  4774 D UiControllerImpl: Injecting string: "c"
+04-28 22:06:03.535  4774  4774 I ViewInteraction: Performing 'close keyboard' action on view view.getRootView() to equal view
+04-28 22:06:03.535  4774  4774 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@79e1b6d]
+04-28 22:06:03.538  1239  1239 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+04-28 22:06:03.539  1239  1239 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+04-28 22:06:03.544  1239  1239 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+04-28 22:06:03.544  1239  1239 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+04-28 22:06:03.544  1239  1239 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+04-28 22:06:03.546  1239  2247 W Delight5Decoder: Delight5DecoderWrapper.shouldAbandonMessage():1701 Detected old [FetchSuggestions] request in background: 666<667, shouldAbandonMessage=true
+04-28 22:06:03.854  4774  4774 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@79e1b6d]
+04-28 22:06:03.858  4774  4774 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131296414/com.example.spirala1:id/dodajBiljkuBtn>
+04-28 22:06:03.916   537  2540 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+04-28 22:06:03.917   537  2543 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+04-28 22:06:03.957   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f3a0c000 0x3f3a96000]
+04-28 22:06:03.973   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f3a96000 0x3f3b20000]
+04-28 22:06:03.980   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f3b20000 0x3f3baa000]
+04-28 22:06:04.018   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f3a96000 0x3f3b20000]
+04-28 22:06:04.039   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f3b20000 0x3f3baa000]
+04-28 22:06:04.052   537  2543 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+04-28 22:06:04.082   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f3baa000 0x3f3c01000]
+04-28 22:06:04.095   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f3c01000 0x3f3c58000]
+04-28 22:06:04.102   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f3c58000 0x3f3caf000]
+04-28 22:06:04.283  4774  4774 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.EditText and editText.getError() to match is "Medicinsko upozorenje mora imati između 2 i 20 znakova."}' assertion on view view.getId() is <2131296537/com.example.spirala1:id/medicinskoUpozorenjeET>
+04-28 22:06:04.288   537   559 D EventSequenceValidator: inc AccIntentStartedEvents to 3
+04-28 22:06:04.293   389   389 I perfetto: ing_service_impl.cc:758 Configured tracing session 15, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+04-28 22:06:04.294   386   386 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=15)
+04-28 22:06:04.300  4774  4774 D LifecycleMonitor: Lifecycle status change: com.example.spirala1.NovaBiljkaActivity@ae4fbe9 in: PAUSED
+04-28 22:06:04.300  4774  4774 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.spirala1.NovaBiljkaActivity@ae4fbe9
+04-28 22:06:04.301   537  2544 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.301   537  2544 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.301   537  2544 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.302   537  2544 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.317   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f2318000 0x3f2cbc000]
+04-28 22:06:04.336   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f09a4000]
+04-28 22:06:04.363   308   348 D goldfish-address-space: claimShared: Ask to claim region [0x3f09a4000 0x3f1348000]
+04-28 22:06:04.380   308   363 D goldfish-address-space: claimShared: Ask to claim region [0x3f6560000 0x3f6f04000]
+04-28 22:06:04.410   308   363 D goldfish-address-space: claimShared: Ask to claim region [0x3f6f04000 0x3f7530000]
+04-28 22:06:04.413  4822  4838 W System  : A resource failed to call release.
+04-28 22:06:04.414  4822  4838 W System  : A resource failed to call release.
+04-28 22:06:04.432   308   363 D goldfish-address-space: claimShared: Ask to claim region [0x3f7530000 0x3f7b5c000]
+04-28 22:06:04.450   537  4337 D HostConnection: HostConnection::get() New Host Connection established 0xb5690d20, tid 4337
+04-28 22:06:04.454   537  4337 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+04-28 22:06:04.454   537  4337 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-28 22:06:04.460   537  2540 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.460   537  2540 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.460   537  2540 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.460   537  2540 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.461   537  2540 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+04-28 22:06:04.468   537  4337 D EGL_emulation: eglCreateContext: 0xb56894d0: maj 2 min 0 rcv 2
+04-28 22:06:04.476   537   559 D EventSequenceValidator: dec AccIntentStartedEvents to 2
+04-28 22:06:04.485  4774  4774 D LifecycleMonitor: Lifecycle status change: com.example.spirala1.NovaBiljkaActivity@ae4fbe9 in: STOPPED
+04-28 22:06:04.485  4774  4774 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.spirala1.NovaBiljkaActivity@ae4fbe9
+04-28 22:06:04.486  4774  4774 D AutofillManager: onActivityFinishing(): calling cancelLocked()
+04-28 22:06:04.487  4774  4774 D LifecycleMonitor: Lifecycle status change: com.example.spirala1.NovaBiljkaActivity@ae4fbe9 in: DESTROYED
+04-28 22:06:04.487  4774  4774 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+04-28 22:06:04.487  4774  4796 I TestRunner: finished: testValidacijaDuzine3(com.example.spirala1.VlastitiTestovi)
