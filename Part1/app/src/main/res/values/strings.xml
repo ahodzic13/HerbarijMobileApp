@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Spirala1</string>
+    <string-array name="opcije_spinnera">
+        <item>Medicinski</item>
+        <item>Botanicki</item>
+        <item>Kuharski</item>
+    </string-array>
+    <string name="tekst_dugmeta_reset">Reset</string>
+</resources>
