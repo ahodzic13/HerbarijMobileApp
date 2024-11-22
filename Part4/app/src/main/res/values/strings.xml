@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Spirala1</string>
+    <string-array name="opcije_spinnera">
+        <item>Medicinski</item>
+        <item>Botanicki</item>
+        <item>Kuharski</item>
+    </string-array>
+    <string-array name="boje">
+        <item>red</item>
+        <item>blue</item>
+        <item>yellow</item>
+        <item>orange</item>
+        <item>purple</item>
+        <item>brown</item>
+        <item>green</item>
+    </string-array>
+    <string name="tekst_dugmeta_reset">Reset</string>
+    <string name="dodaj_jelo">Dodaj jelo</string>
+    <string name="izmijeni_jelo">Izmijeni jelo</string>
+    <string name="dodavanje_praznog_jela">Unesite naziv jela</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/slikaItem"
+        android:layout_width="110dp"
+        android:layout_height="171dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/picture1" />
+
+    <TextView
+        android:id="@+id/nazivItem"
+        android:layout_width="272dp"
+        android:layout_height="42dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/upozorenjeItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toEndOf="@+id/slikaItem"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <TextView
+        android:id="@+id/upozorenjeItem"
+        android:layout_width="272dp"
+        android:layout_height="95dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/slikaItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toEndOf="@+id/slikaItem"
+        app:layout_constraintTop_toBottomOf="@+id/nazivItem" />
+
+    <TextView
+        android:id="@+id/korist1Item"
+        android:layout_width="96dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/korist2Item"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toEndOf="@+id/slikaItem"
+        app:layout_constraintTop_toBottomOf="@+id/upozorenjeItem" />
+
+    <TextView
+        android:id="@+id/korist2Item"
+        android:layout_width="100dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/korist3Item"
+        app:layout_constraintStart_toEndOf="@+id/korist1Item"
+        app:layout_constraintTop_toBottomOf="@+id/upozorenjeItem" />
+
+    <TextView
+        android:id="@+id/korist3Item"
+        android:layout_width="93dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/korist2Item"
+        app:layout_constraintTop_toBottomOf="@+id/upozorenjeItem" />
+</androidx.constraintlayout.widget.ConstraintLayout>
